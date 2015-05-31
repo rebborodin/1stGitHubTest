@@ -9,17 +9,17 @@ valgrind --leak-check=full --show-reachable=yes --track-origins=yes
 ls -ltr | tail - 5 
 
 ​
-faui06m [/proj/i4sp2/yt71azeg/trunk/aufgabe2]> nc faui03.cs.fau.de 25
+faui06m [/proj/i4sp2/[kennung]/trunk/aufgabe2]> nc faui03.cs.fau.de 25
 220 faui03.informatik.uni-erlangen.de ESMTP Postfix
 HELO faui06m.cs.fau.de
 250 faui03.informatik.uni-erlangen.de
 MAIL FROM: obama@whitehouse.gov
 250 2.1.0 Ok
-RCPT TO: ilija.borodin@fau.de
+RCPT TO: xyz.vwer@fau.de
 250 2.1.5 Ok
 DATA
 354 End data with <CR><LF>.<CR><LF>
-From: ilija.borodin@fau.de
+From: xyz.vwer@fau.de
 To: obama@whitehouse.gov
 Subject: Test
 
