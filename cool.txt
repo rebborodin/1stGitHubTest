@@ -1,0 +1,31 @@
+wget --secure-protocol=SSLv3 --user=AUDFAU --password=AUDFAU -r --no-parent -A *[!sw].pdf https://www2.cs.fau.de/teaching/WS2014/AuD/slides/secure/ -P /home/elyahu/uni/AuD/down/
+scp yt71azeg@faui06k.cs.fau.de:/proj/i4sp2/yt71azeg/trunk/aufgabe1/* uni/SP2
+
+pdftk Ubung[1-5]\ Loesungen.pdf output scheinklausur.pdf
+
+valgrind --leak-check=full --show-reachable=yes --track-origins=yes
+
+<TOP 5>
+ls -ltr | tail - 5 
+
+​
+faui06m [/proj/i4sp2/yt71azeg/trunk/aufgabe2]> nc faui03.cs.fau.de 25
+220 faui03.informatik.uni-erlangen.de ESMTP Postfix
+HELO faui06m.cs.fau.de
+250 faui03.informatik.uni-erlangen.de
+MAIL FROM: obama@whitehouse.gov
+250 2.1.0 Ok
+RCPT TO: ilija.borodin@fau.de
+250 2.1.5 Ok
+DATA
+354 End data with <CR><LF>.<CR><LF>
+From: ilija.borodin@fau.de
+To: obama@whitehouse.gov
+Subject: Test
+
+Test
+.
+250 2.0.0 Ok: queued as 54A98680467
+QUIT
+221 2.0.0 Bye
+faui06m [/proj/i4sp
